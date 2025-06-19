@@ -72,7 +72,7 @@ function AddQuestion() {
 
     try {
       const response = await  fetch(
-        'https://inspiring-balance-production.up.railway.app/api/questions', {
+        'https://backend-production-eff3.up.railway.app/api/questions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

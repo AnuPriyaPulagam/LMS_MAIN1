@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Online Learning Management System
 
 ## Overview
@@ -145,3 +146,6 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 ![Screenshot (80)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/8d67282c-0043-4ed6-ae9d-956489b27e55)
 ![Screenshot (81)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/956f27e9-3552-4411-8ff5-d2cdc640c240)
 ![Screenshot (82)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/a6550a77-605c-46e9-b038-fd2b1949575b)
+=======
+# LMS_MAIN1
+>>>>>>> 576ce548182573ae6c750edd959270f77f8e3565

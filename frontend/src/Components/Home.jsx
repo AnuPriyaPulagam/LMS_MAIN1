@@ -88,7 +88,7 @@ function Home() {
             <a className="blue" href="https://adityauniversity.in/">
               Learn More
             </a>
-            <a className="yellow" href="http://localhost:3000/courses">
+            <a className="yellow" href="https://lms-main-1-ten.vercel.app/courses">
               Visit Courses
             </a>
           </div>

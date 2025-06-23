@@ -94,19 +94,22 @@ Home page:
 
 **Courses:**
 ![Image](https://github.com/user-attachments/assets/78c4e6cd-de61-448a-b0c3-35c125d54e30)
-
-**Course learning:**
-![Screenshot (90)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/c79f58d5-d5e0-4899-85cc-fe126fdc09c5)
-![Screenshot (91)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/79641a32-f261-433c-a183-7f262a121c9b)
+![Image](https://github.com/user-attachments/assets/da1ad236-be46-4ddd-8998-33b0364a0015)
 
 **Profile:**
-![Screenshot (87)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/707d3fa8-0462-4048-a740-c3f3e225c504)
-![Screenshot (88)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/0d4b22fe-01b0-4176-b03f-8ba780eb0589)
+![Image](https://github.com/user-attachments/assets/c1826423-d36b-4f3a-b418-8b5baec711a7)
+![Image](https://github.com/user-attachments/assets/dbe4efc2-4704-40a5-ba4f-370f3ddf7bf0)
+
+**Course learning:**
+![Image](https://github.com/user-attachments/assets/4b5df028-b0fd-4d48-91bd-fffa6ad52de7)
+![Image](https://github.com/user-attachments/assets/57994d4b-1ecc-46db-92a4-0688f08ce425)
+
+
 
 
 
 **Learnings:**
-![Screenshot (89)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/7179e9bd-648d-4534-8495-6403a07e9482)
+![Image](https://github.com/user-attachments/assets/effcb76b-6e27-47e3-bd9c-b2144635ec7f)
 
 
 
@@ -115,9 +118,10 @@ Home page:
 
 
 **Assessment:**
-![Screenshot (92)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/c6c2cd14-e3c3-4906-bfec-85054325542e)
-
-
+![Image](https://github.com/user-attachments/assets/7eacdfe5-4147-4a88-bb99-3a60049624fd)
+![Image](https://github.com/user-attachments/assets/b71b0f99-7a38-4c6f-b037-716d82cee603)
+![Image](https://github.com/user-attachments/assets/d1bd2cea-ed68-4680-9fb9-f133894baa32)
+![Image](https://github.com/user-attachments/assets/fb361ff5-2bb3-4dae-b7d1-da62c34985f7)
 
 **Certificate:**
 ![Screenshot (94)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/602071e3-f74c-4026-9d7c-fc1cc9aa4f58)

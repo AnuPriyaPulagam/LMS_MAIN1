@@ -54,7 +54,7 @@ This project is a Learning Management System (LMS) built with React.js for the f
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/PATMESH/Learning-Management-System.git
+    git clone https://github.com/AnuPriyaPulagam/LMS_MAIN1
     ```
 
 2. Navigate to the frontend and backend folders and follow their respective setup instructions.
@@ -88,20 +88,30 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 
 Home page:
 ![Image](https://github.com/user-attachments/assets/2b458d04-9aa2-4fcf-b56e-ca24f09c58a8)
+
+
 ![Image](https://github.com/user-attachments/assets/8a2b6e85-003a-44b5-b905-04514a92b966)
+
+
 ![Image](https://github.com/user-attachments/assets/5a64ebeb-38d9-4b57-8961-4dfc2456c475)
 
 
 **Courses:**
 ![Image](https://github.com/user-attachments/assets/78c4e6cd-de61-448a-b0c3-35c125d54e30)
+
+
 ![Image](https://github.com/user-attachments/assets/da1ad236-be46-4ddd-8998-33b0364a0015)
 
 **Profile:**
 ![Image](https://github.com/user-attachments/assets/c1826423-d36b-4f3a-b418-8b5baec711a7)
+
+
 ![Image](https://github.com/user-attachments/assets/dbe4efc2-4704-40a5-ba4f-370f3ddf7bf0)
 
 **Course learning:**
 ![Image](https://github.com/user-attachments/assets/c773e868-eff6-4b3d-b733-fbb6d7a15711)
+
+
 ![Image](https://github.com/user-attachments/assets/57994d4b-1ecc-46db-92a4-0688f08ce425)
 
 
@@ -119,8 +129,14 @@ Home page:
 
 **Assessment:**
 ![Image](https://github.com/user-attachments/assets/7eacdfe5-4147-4a88-bb99-3a60049624fd)
+
+
 ![Image](https://github.com/user-attachments/assets/b71b0f99-7a38-4c6f-b037-716d82cee603)
+
+
 ![Image](https://github.com/user-attachments/assets/d1bd2cea-ed68-4680-9fb9-f133894baa32)
+
+
 ![Image](https://github.com/user-attachments/assets/fb361ff5-2bb3-4dae-b7d1-da62c34985f7)
 
 **Certificate:**
@@ -129,24 +145,29 @@ Home page:
 
 
 **Dashboard:**
-![Screenshot (95)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/ba3a9695-cde5-437d-b05c-2c1babb1eedc)
-![Screenshot (96)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/5383d0f6-edba-4cd3-8fb0-53ba2ca76b5c)
-![Screenshot (97)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/d02a3ed9-40a2-403e-ad4c-743986d3bb1a)
+![Image](https://github.com/user-attachments/assets/fce4b831-b55d-4d93-9e32-5674d8f04c90)
+
+
+![Image](https://github.com/user-attachments/assets/db5094c3-c261-4898-b9e2-f69014c40b6b)
+
+
+![Image](https://github.com/user-attachments/assets/12502ad6-b776-4492-b02b-092c9aafa9fa)
 
 
 
 **Add Course:**
-![Screenshot (98)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/a57c4b2b-d8ca-4035-8153-2626298474e6)
+![Image](https://github.com/user-attachments/assets/de3b0adb-397d-457a-be8e-ea3a2ba5bd26)
 
 
 
 **Edit Course:**
-![Screenshot (99)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/4dddc1b2-435b-4a07-864d-eeb4a4d6b233)
+
+![Image](https://github.com/user-attachments/assets/f93b2793-0a85-4180-bb65-a7c17af818a2)
 
 
 
 **Add Assessment Questions:**
-![Screenshot (100)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/91fd1e0a-b613-4814-a1b4-69827352919f)
+![Image](https://github.com/user-attachments/assets/e3a4ef4b-e4c0-4812-a6f4-a8eccb2aba7d)
 
 
 

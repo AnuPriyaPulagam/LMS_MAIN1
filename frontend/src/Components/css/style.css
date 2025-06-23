@@ -50,13 +50,13 @@ nav {
 }
 
 nav img {
-    width: 250px;
-    height: auto;
-    cursor: pointer;
-    margin-left: -80px;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    display: flex;
+  max-width: 250px;
+  height: auto;
+  cursor: pointer;
+  margin-left: -80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
 }
 
 nav .logo1 {
@@ -70,6 +70,27 @@ nav .logo1 #academ {
   margin-top: 17px;
   font-size: 26px;
   margin-left: 1px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  nav img {
+    max-width: 150px;  /* Reduce logo size for mobiles */
+    margin-left: 0;     /* Remove negative margin for better alignment */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  nav .logo1 {
+    justify-content: flex-start; /* Align logo to the left on mobile */
+    padding-left: 10px; /* Add some space from the edge */
+  }
+
+  nav .logo1 #academ {
+    margin-top: 12px;
+    font-size: 20px;  /* Slightly smaller text for mobile */
+    margin-left: 5px;
+  }
 }
 
 nav .navigation {

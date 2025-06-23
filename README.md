@@ -84,14 +84,20 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 
 
 **Register:**
-![Screenshot (85)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/7af66295-bac6-4af2-a415-d666ffc9fb00)
+![Image](https://github.com/user-attachments/assets/1e3eb1de-f2d5-49c8-b595-4dd042c01d01)
 
+Home page:
+![Image](https://github.com/user-attachments/assets/2b458d04-9aa2-4fcf-b56e-ca24f09c58a8)
+![Image](https://github.com/user-attachments/assets/8a2b6e85-003a-44b5-b905-04514a92b966)
+![Image](https://github.com/user-attachments/assets/5a64ebeb-38d9-4b57-8961-4dfc2456c475)
 
 
 **Courses:**
 ![Image](https://github.com/user-attachments/assets/78c4e6cd-de61-448a-b0c3-35c125d54e30)
 
-
+**Course learning:**
+![Screenshot (90)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/c79f58d5-d5e0-4899-85cc-fe126fdc09c5)
+![Screenshot (91)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/79641a32-f261-433c-a183-7f262a121c9b)
 
 **Profile:**
 ![Screenshot (87)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/707d3fa8-0462-4048-a740-c3f3e225c504)
@@ -104,9 +110,7 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 
 
 
-**Course learning:**
-![Screenshot (90)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/c79f58d5-d5e0-4899-85cc-fe126fdc09c5)
-![Screenshot (91)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/79641a32-f261-433c-a183-7f262a121c9b)
+
 
 
 
@@ -142,10 +146,6 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 
 
 
-**Home page:**
-![Screenshot (80)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/8d67282c-0043-4ed6-ae9d-956489b27e55)
-![Screenshot (81)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/956f27e9-3552-4411-8ff5-d2cdc640c240)
-![Screenshot (82)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/a6550a77-605c-46e9-b038-fd2b1949575b)
-=======
+
 # LMS_MAIN1
 >>>>>>> 576ce548182573ae6c750edd959270f77f8e3565

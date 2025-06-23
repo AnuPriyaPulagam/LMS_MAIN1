@@ -101,7 +101,7 @@ Home page:
 ![Image](https://github.com/user-attachments/assets/dbe4efc2-4704-40a5-ba4f-370f3ddf7bf0)
 
 **Course learning:**
-![Image](https://github.com/user-attachments/assets/4b5df028-b0fd-4d48-91bd-fffa6ad52de7)
+![Image](https://github.com/user-attachments/assets/c773e868-eff6-4b3d-b733-fbb6d7a15711)
 ![Image](https://github.com/user-attachments/assets/57994d4b-1ecc-46db-92a4-0688f08ce425)
 
 
@@ -124,7 +124,7 @@ Home page:
 ![Image](https://github.com/user-attachments/assets/fb361ff5-2bb3-4dae-b7d1-da62c34985f7)
 
 **Certificate:**
-![Screenshot (94)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/602071e3-f74c-4026-9d7c-fc1cc9aa4f58)
+![Image](https://github.com/user-attachments/assets/ca6099a8-61d3-4217-84ee-441f59c968f8)
 
 
 

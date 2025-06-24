@@ -59,7 +59,8 @@ function Profile() {
   return (
     <div style={{ background: "linear-gradient(to top, rgb(240, 161, 23),rgb(127, 192, 242)" }}>
       <Navbar page={"profile"} />
-      <div className="profile-card" id="pbg" style={{ marginTop:'100px', background: "linear-gradient(to right, rgb(252, 234, 203),rgb(199, 230, 255)" }}>
+      <div style={{ padding-top:"20px"}}> 
+           <div className="profile-card" id="pbg" style={{ marginTop:'100px', background: "linear-gradient(to right, rgb(252, 234, 203),rgb(199, 230, 255)" }}>
         <ImgUpload onChange={handleImageChange} src={profileImage} />
         <h2 className="profile-name">{userDetails?.username}</h2>
         <div style={{ marginTop: '20px' }}>
@@ -131,6 +132,8 @@ function Profile() {
       </div>
       <Performance />
     </div>
+      </div>
+     
   );
 }
 

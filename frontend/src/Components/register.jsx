@@ -27,7 +27,7 @@ function RegistrationForm() {
     e.preventDefault();
 
     try {
-      const response = await   fetch("https://backend-production-eff3.up.railway.app/api/users/add", {
+      const response = await fetch("http://localhost:8080/api/users/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -43,150 +43,92 @@ function RegistrationForm() {
         setError(data.error);
       }
     } catch (error) {
-      setError("Registration error:", error);
+      setError("An error occurred during registration.");
     }
   };
 
   return (
     <div>
       <Navbar />
-      <div className="registration-auth">
-        <div className="registration-container">
-          <h2>User Registration</h2>
-          <form onSubmit={handleSubmit} className="registration-form">
-            <div className="registration-input-group">
-              <div>
-                <div className="registration-text-area">
-                  <label>Name: </label>
-                </div>
-                <input
-                  type="text"
-                  name="username"
-                  value={formData.username}
-                  onChange={handleChange}
-                  required
-                />
+      <div className="registration-auth" style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: "90vh" }}>
+        <div className="registration-container" style={{ background: "#fff", padding: "40px 60px", borderRadius: "10px", boxShadow: "0 4px 15px rgba(0,0,0,0.2)", maxWidth: "850px", width: "100%" }}>
+          <h2 style={{ textAlign: "center", marginBottom: "30px" }}>User Registration</h2>
+          <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            
+            {/* Row 1 */}
+            <div style={{ display: "flex", gap: "5px" }}>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>Name:</label>
+                <input type="text" name="username" value={formData.username} onChange={handleChange} required style={{ width: "100%", padding: "8px" }} />
               </div>
-              <div>
-                <div className="registration-text-area">
-                  <label>Email Id:</label>
-                </div>
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>Email Id:</label>
+                <input type="email" name="email" value={formData.email} onChange={handleChange} required style={{ width: "100%", padding: "8px" }} />
               </div>
             </div>
-            <div className="registration-input-group">
-              <div>
-                <div className="registration-text-area">
-                  <label>Phone no:</label>
-                </div>
-                <input
-                  type="tel"
-                  name="phno"
-                  value={formData.phno}
-                  onChange={handleChange}
-                  required
-                />
+
+            {/* Row 2 */}
+            <div style={{ display: "flex", gap: "5px" }}>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>Phone no:</label>
+                <input type="tel" name="phno" value={formData.phno} onChange={handleChange} required style={{ width: "100%", padding: "8px" }} />
               </div>
-              <div>
-                <div className="registration-text-area">
-                  <label>Password:</label>
-                </div>
-                <input
-                  type="password"
-                  name="password"
-                  value={formData.password}
-                  onChange={handleChange}
-                  required
-                />
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>Password:</label>
+                <input type="password" name="password" value={formData.password} onChange={handleChange} required style={{ width: "100%", padding: "8px" }} />
               </div>
             </div>
-            <div className="registration-input-group">
-              <div>
-                <div className="registration-text-area">
-                  <label>Date of Birth:</label>
-                </div>
-                <input
-                  type="text"
-                  name="dob"
-                  value={formData.dob}
-                  onChange={handleChange}
-                />
+
+            {/* Row 3 */}
+            <div style={{ display: "flex", gap: "5px" }}>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>Date of Birth:</label>
+                <input type="text" name="dob" value={formData.dob} onChange={handleChange} style={{ width: "100%", padding: "8px" }} />
               </div>
-              <div>
-                <div className="registration-text-area">
-                  <label>Gender:</label>
-                </div>
-                <input
-                  type="text"
-                  name="gender"
-                  value={formData.gender}
-                  onChange={handleChange}
-                />
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>Gender:</label>
+                <input type="text" name="gender" value={formData.gender} onChange={handleChange} style={{ width: "100%", padding: "8px" }} />
               </div>
             </div>
-            <div className="registration-input-group">
-              <div>
-                <div className="registration-text-area">
-                  <label>Location:</label>
-                </div>
-                <input
-                  type="text"
-                  name="location"
-                  value={formData.location}
-                  onChange={handleChange}
-                />
+
+            {/* Row 4 */}
+            <div style={{ display: "flex", gap: "5px" }}>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>Location:</label>
+                <input type="text" name="location" value={formData.location} onChange={handleChange} style={{ width: "100%", padding: "8px" }} />
               </div>
-              <div>
-                <div className="registration-text-area">
-                  <label>Profession:</label>
-                </div>
-                <input
-                  type="text"
-                  name="profession"
-                  value={formData.profession}
-                  onChange={handleChange}
-                />
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>Profession:</label>
+                <input type="text" name="profession" value={formData.profession} onChange={handleChange} style={{ width: "100%", padding: "8px" }} />
               </div>
             </div>
-            <div className="registration-input-group">
-              <div>
-                <div className="registration-text-area">
-                  <label>LinkedIn URL:</label>
-                </div>
-                <input
-                  type="text"
-                  name="linkedin_url"
-                  value={formData.linkedin_url}
-                  onChange={handleChange}
-                />
+
+            {/* Row 5 */}
+            <div style={{ display: "flex", gap: "5px" }}>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>LinkedIn URL:</label>
+                <input type="text" name="linkedin_url" value={formData.linkedin_url} onChange={handleChange} style={{ width: "100%", padding: "8px" }} />
               </div>
-              <div>
-                <div className="registration-text-area">
-                  <label>GitHub URL:</label>
-                </div>
-                <input
-                  type="text"
-                  name="github_url"
-                  value={formData.github_url}
-                  onChange={handleChange}
-                />
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", marginBottom: "0px" }}>GitHub URL:</label>
+                <input type="text" name="github_url" value={formData.github_url} onChange={handleChange} style={{ width: "100%", padding: "8px" }} />
               </div>
             </div>
-            {error && <span className="registration-error-msg">{error}</span>}
-            <div className="registration-btn1">
-              <button type="submit">Register</button>
+
+            {error && <span style={{ color: "red", marginTop: "10px" }}>{error}</span>}
+
+            <div style={{ textAlign: "center", marginTop: "10px" }}>
+              <button type="submit" style={{ padding: "10px 25px", backgroundColor: "#3498db", color: "white", border: "none", borderRadius: "5px" }}>
+                Register
+              </button>
             </div>
           </form>
-          <span>
-            Already have an account? login
-            <Link to="/login"> Here</Link>
-          </span>
+
+          <div style={{ textAlign: "center", marginTop: "15px" }}>
+            <span>
+              Already have an account? <Link to="/login">Login Here</Link>
+            </span>
+          </div>
         </div>
       </div>
     </div>

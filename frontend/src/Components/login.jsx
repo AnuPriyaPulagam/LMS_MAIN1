@@ -55,43 +55,46 @@ function Login() {
     <div>
       <Navbar />
       <div className="auth">
-        <div className="container">
-          <h3>Welcome!</h3>
-          <br />
-          <h2>Login</h2>
-          <br />
-          <form autoComplete="off" className="form-group" onSubmit={login}>
-            <label htmlFor="email">Email Id :</label>
-            <input
-              type="email"
-              className="form-control"
-              style={{ width: "100%", marginRight: "50px" }}
-              onChange={(e) => setEmail(e.target.value)}
-              value={email}
-            />
+        <div style={{paddingTop:"90px"}}>
+          <div className="container">
+            <h3>Welcome!</h3>
             <br />
-            <label htmlFor="password">Password : </label>
-            <input
-              type="password"
-              className="form-control"
-              style={{ width: "100%" }}
-              onChange={(e) => setPassword(e.target.value)}
-              value={password}
-            />
+            <h2>Login</h2>
             <br />
-            <div className="btn1">
-              <button type="submit" className="btn btn-success btn-md mybtn">
-                LOGIN
-              </button>
-            </div>
-          </form>
-          {error && <span className="error-msg">{error}</span>}
-          <br />
-          <span>
-            Don't have an account? Register
-            <Link to="/register"> Here</Link>
-          </span>
+            <form autoComplete="off" className="form-group" onSubmit={login}>
+              <label htmlFor="email">Email Id :</label>
+              <input
+                type="email"
+                className="form-control"
+                style={{ width: "100%", marginRight: "50px" }}
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+              />
+              <br />
+              <label htmlFor="password">Password : </label>
+              <input
+                type="password"
+                className="form-control"
+                style={{ width: "100%" }}
+                onChange={(e) => setPassword(e.target.value)}
+                value={password}
+              />
+              <br />
+              <div className="btn1">
+                <button type="submit" className="btn btn-success btn-md mybtn">
+                  LOGIN
+                </button>
+              </div>
+            </form>
+            {error && <span className="error-msg">{error}</span>}
+            <br />
+            <span>
+              Don't have an account? Register
+              <Link to="/register"> Here</Link>
+            </span>
+          </div>
         </div>
+        
       </div>
     </div>
   );

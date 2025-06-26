@@ -27,7 +27,7 @@ function RegistrationForm() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:8080/api/users/add", {
+      const response = await fetch("backend-production-eff3.up.railway.app/api/users/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
